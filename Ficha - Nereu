@@ -1,0 +1,98 @@
+Ficha de Personagem: Nereu Aegir
+Idade: 21 anos
+Raça: Tritão
+Classe: Guerreiro
+Nível: 7
+Rank: 3
+
+Vida e Recursos
+HP: (10 + CON) x Nível = (10 + 6) x 7 = 112
+MP: (5 + SAB) x Nível = (5 + 6) x 7 = 77
+CA:
+Bloqueio = 7 + CON/2 = 7 + 3 = 10
+Esquiva = 6 + 0,75 x DEX = 6 + 4,5 = 10
+ABS: 10
+Atributos
+CON: 6
+DEX: 6
+AGI: 3
+INT: 2
+SAB: 6
+CAR: 1
+Perícias
+Sobrevivência
+Foco em arma: Tridente de duas mãos
+Atletismo
+Línguas
+Comum
+Aquática
+Equipamentos
+Tridente de duas mãos com garras reforçadas em ferro:
+
+Dano: 1d8 + 1d12 + 1,25 x CON (contundente, elétrico e aquático)
+Encantamento: Amplifica em 50% habilidades que envolvam água ou eletricidade.
+Armadura de couro espiritual com afinidade eletro-aquática:
+
+ABS: +7
+Bloqueio: +3 CA
+Dano de contato: 1d4 + 0,5 x SAB (híbrido: elétrico e aquático)
+Habilidade Ativável: Onda eletro-aquática (10 x Rank metros, dano: 2d12 + SAB)
+Custo: 5 MP
+Recarga: 6 turnos
+Braceletes de Aço: +6 CA em bloqueio
+
+Itens consumíveis:
+
+Cocos e peixes variados (suprimentos alimentares)
+472 PO
+Habilidades
+Passivas e Especiais
+Guelras e Nadadeiras: Respiração subaquática, natação rápida, e +1 ABS devido a escamas rígidas.
+Aquático Aprimorado - Aprendendo com Peixe: Comunicação com seres aquáticos (não humanoides) e vantagem em testes de CAR com eles.
+Ativas
+Charge of Trident Electron:
+
+Corpo a corpo: Dano da arma + 1d6 + SAB
+Longo alcance (10 + 2 x Rank metros): 1d6 + SAB
+Custo: 3 MP
+Recarga: 4 turnos
+Golem das Marés: Invoca golens de água (limite igual ao Rank).
+
+Custo: 5 MP
+Recarga: Descanso curto
+Convocação de Bando, Enguias:
+
+Inicial: 3d6 + SAB (híbrido: elétrico)
+Incremento: +1d6 + 1/3 x SAB por turno (máximo: 3 turnos adicionais)
+Custo: 5 MP por turno adicional
+Recarga: 5 turnos após término
+Postura Escamável: Fortalece escamas, concedendo escudo (1d4 + (CON + 3)/4) e aumenta ABS em 1d(Rank).
+
+Teste: Resistência física (CD 14)
+Ação: Bônus
+Escamas Eletrizantes (Passiva/Ativa):
+
+Passiva: +Rank em ABS
+Ativa: Dano em área (2d6 + SAB, 2 x Rank metros)
+Custo: 6 MP
+Recarga: 5 turnos
+Jato Hidráulico:
+
+Dano: 2d4 + 0,5 x SAB (híbrido: água e elétrico)
+Alcance: 10 + 2 x Rank metros
+Custo: 5 MP
+Recarga: 2 turnos
+Névoa de Cloro:
+
+Gás tóxico: 1d12 de dano + 1d6 + 0,5 x SAB (elétrico)
+Cura: 2d8 + 1/3 x SAB
+Controle: Rajadas em 10 x Rank metros (1d12 de dano do gás, 1d8 + SAB de dano elétrico)
+Custo: 8 MP por rodada
+Recarga: 6 rodadas
+Trilha Gêiser:
+
+Dano: 6d8 + 2 x SAB (aquático)
+Alcance: Linha reta de 20m
+Adicional: Inimigos falham resistência física (CD 6 + SAB), são arremessados (1d10 ou 1d20 de dano extra).
+Custo: 30 MP
+Recarga: 3 turnos

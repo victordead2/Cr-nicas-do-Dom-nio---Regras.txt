@@ -1,0 +1,65 @@
+Ficha de Personagem - Bartolomeu (Monkey D. Bartolomeu)
+Informações Básicas
+Nome do Personagem: Bartolomeu
+Raça: Primata (macaco)
+Classe: Guerreiro Primitivo
+Nível: 7
+Rank: 3
+
+Atributos:
+Constituição (CON): 7
+Destreza (DEX): 8
+Agilidade (AGI): 5
+Inteligência (INT): 2
+Sabedoria (SAB): 2
+Carisma (CAR): 9
+
+Pontos de Vida (HP)
+Cálculo: (5 + CAR) x Nível
+Valor (Nível 7):
+Cálculo: (5 + 9) x 7 = 14 x 7 = 98 HP
+
+Pontos de Magia (MP)
+Cálculo: CAR x Nível
+Valor (Nível 7):
+Cálculo: 9 x 7 = 63 MP
+Classe de Armadura (CA)
+Bloqueio: 4 + CAR (+5 da armadura)
+Valor Total: 15
+Cálculo: (4 + 8) + 5 (da armadura) = 15
+Esquiva: 4 + CAR
+Valor Total: 12
+Cálculo: (4 + 8) = 12
+Ataque Básico (Corpo a Corpo)
+Cálculo: DEX (por ser corpo a corpo, o cálculo usa DEX)
+Valor: 7 (DEX) + bônus de arma (se houver).
+Perícias
+Furtividade:
+Bônus: +1 (baseado em DEX ou habilidade adquirida).
+
+Equipamentos
+Bastão de Ouro com Espinhos
+Dano: 2d8 + 1,25 DEX (contundente)
+Descrição: Bastão reforçado com espinhos, aumentando o dano conforme a destreza de Bartolomeu.
+Armadura Divina
+Efeitos: Permite ao usuário ter consciência, fornece Absorção de Dano (Abs) de 15, e aumenta a Classe de Armadura (CA) em +5.
+
+Habilidades
+Força Primitiva
+Descrição: Bartolomeu canaliza toda a sua força para os braços, podendo aumentar seu dano e resistência.
+Efeitos:
+Fora de combate: +0,5 CON em testes de força física dos braços.
+Em combate: Aumenta o dano de seu próximo golpe corpo-a-corpo em +3 CON. O alvo precisa fazer um teste de resistência física (CD: 6 + CON). Se falhar, ficará atordoado por uma rodada ou três turnos, o que ocorrer primeiro. Se a falha for com menos da metade, o alvo ficará atordoado por duas rodadas ou seis turnos.
+Custo: 10 MP
+Tempo de Recarga: 5 turnos
+Abraço Primitivo
+Descrição: Bartolomeu fortifica seu corpo para agarrar o inimigo com força bruta.
+Efeitos: Concede +3 + Rank no agarrão.
+Custo: 4 MP
+Tempo de Recarga: 3 turnos
+Fúria do Macaco Louco
+Descrição: Bartolomeu entra em frenesi e começa a atacar com fúria, podendo realizar múltiplos golpes.
+Efeitos: Bartolomeu pode golpear com sua arma ou corpo a corpo 1dRank + 1 vezes.
+Custo: 20 MP
+Tempo de Recarga: 1 + o resultado do dado de vezes.
+

@@ -9,8 +9,8 @@ Vida e Recursos
 HP: (10 + CON) x Nível = (10 + 6) x 7 = 112
 MP: (5 + SAB) x Nível = (5 + 6) x 7 = 77
 CA:
-Bloqueio = 7 + CON/2 = 7 + 3 = 10
-Esquiva = 6 + 0,75 x DEX = 6 + 4,5 = 10
+Bloqueio = 11 + CON/2 = 11 + (6/2) = 11 + 3 = 14
+Esquiva = 7 + 0,75 x DEX = 7 + (0,75 x 6) = 7 + 4,5 = 11,5 (arredondado para 11, se necessário).
 ABS: 10
 Atributos
 CON: 6
@@ -56,10 +56,79 @@ Corpo a corpo: Dano da arma + 1d6 + SAB
 Longo alcance (10 + 2 x Rank metros): 1d6 + SAB
 Custo: 3 MP
 Recarga: 4 turnos
-Golem das Marés: Invoca golens de água (limite igual ao Rank).
+Habilidade: Golem das Marés
+Invoca um Golem de Água que auxilia Nereu em combate. Os atributos do Golem baseiam-se nos do invocador, escalando com seu nível e Sabedoria.
 
-Custo: 5 MP
-Recarga: Descanso curto
+Limite de Golens Ativos: Igual ao Rank de Nereu.
+Custo: 5 MP por invocação.
+Recarga: Descanso curto.
+Fusão de Golens: Dois Golens de mesmo grau podem se fundir, criando um Golem de grau superior.
+Efeitos da Fusão: Aumenta o HP, MP, dados de dano e multiplicadores, conforme o novo grau.
+Limite de Grau: Igual ao Rank de Nereu.
+Restrição: Apenas um Golem pode ter o grau máximo permitido pelo Rank de Nereu.
+Ficha do Golem das Marés
+Grau 1
+
+HP: (5 + SAB) × Nível = 66
+MP: SAB × Nível = 36
+CA:
+Bloqueio: 4 + SAB = 10
+Esquiva: 4 + SAB = 10
+Ataques Básicos:
+Corpo a Corpo: 1d4 + CON
+Distância (Jato de Água): 1d4 + SAB
+Habilidades:
+
+Disparo Suicida
+O Golem sacrifica uma parte de seu corpo para intensificar o ataque de água.
+
+Dano: 3d4 + SAB (o Golem sofre metade desse dano).
+Custo: 5 MP.
+Recarga: 3 turnos.
+Água Entrelaçada
+Permite que dois Golens de mesmo grau se fundam.
+
+Efeitos: Aumenta o HP, MP, dados de dano e multiplicadores equivalentes ao novo grau.
+Grau 2
+
+HP: 2 × [(5 + SAB) × Nível] = 132
+MP: 2 × (SAB × Nível) = 72
+CA:
+Bloqueio: 4 + SAB = 10
+Esquiva: 4 + SAB = 10
+Ataques Básicos:
+Corpo a Corpo: 2d4 + (2 × CON)
+Distância (Jato de Água): 2d4 + (2 × SAB)
+Habilidades:
+
+Disparo Suicida
+
+Dano: 6d4 + (2 × SAB) (o Golem sofre metade desse dano).
+Custo: 10 MP.
+Recarga: 3 turnos.
+Água Entrelaçada
+Permite fusão para criar um Golem de Grau 3.
+
+Grau 3
+
+HP: 3 × [(5 + SAB) × Nível] = 198
+MP: 3 × (SAB × Nível) = 108
+CA:
+Bloqueio: 4 + SAB = 10
+Esquiva: 4 + SAB = 10
+Ataques Básicos:
+Corpo a Corpo: 3d4 + (3 × CON)
+Distância (Jato de Água): 3d4 + (3 × SAB)
+Habilidades:
+
+Disparo Suicida
+Dano: 9d4 + (3 × SAB) (o Golem sofre metade desse dano).
+Custo: 15 MP.
+Recarga: 3 turnos.
+Notas
+Golens Ativos: Nereu pode controlar até 3 Golens simultaneamente, de graus diferentes, limitado ao seu Rank.
+Golem de Grau 1: Invocado normalmente.
+Golens de Graus Superiores: Somente por fusão de Golens do mesmo grau.
 Convocação de Bando, Enguias:
 
 Inicial: 3d6 + SAB (híbrido: elétrico)
@@ -78,17 +147,21 @@ Custo: 6 MP
 Recarga: 5 turnos
 Jato Hidráulico:
 
-Dano: 2d4 + 0,5 x SAB (híbrido: água e elétrico)
+Dano: 4d4 + SAB (híbrido: água e elétrico)
 Alcance: 10 + 2 x Rank metros
 Custo: 5 MP
 Recarga: 2 turnos
 Névoa de Cloro:
 
-Gás tóxico: 1d12 de dano + 1d6 + 0,5 x SAB (elétrico)
-Cura: 2d8 + 1/3 x SAB
-Controle: Rajadas em 10 x Rank metros (1d12 de dano do gás, 1d8 + SAB de dano elétrico)
-Custo: 8 MP por rodada
-Recarga: 6 rodadas
+Névoa de Cloro
+
+Nereu gera uma aura tóxica que se espalha em um raio de 10 metros ao seu redor. Essa aura causa 1d12 de dano químico e 1d6 + 0,5 x SAB de dano elétrico por rodada aos inimigos, enquanto Nereu é envolto pela energia revitalizante da névoa, curando-o em 2d8 + 1/3 x SAB por rodada.
+
+Aura Permanente: A névoa se mantém ativa enquanto Nereu paga o custo de mana, funcionando como um campo contínuo.
+Controle da Nuvem: Nereu pode direcionar a névoa para lançar rajadas em um raio de 10 x Rank metros, causando 1d12 de dano químico e 1d8 + SAB de dano elétrico por inimigo atingido.
+Custo: 8 MP por rodada.
+Recarga: 6 rodadas após o término da habilidade.
+
 Trilha Gêiser:
 
 Dano: 6d8 + 2 x SAB (aquático)

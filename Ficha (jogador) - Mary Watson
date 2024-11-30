@@ -5,7 +5,7 @@ Classe: Guerreiro
 Nível: 7
 Rank: 3
 
-Backstory:
+História
 Mary é uma pirata determinada a vingar-se do temível Pedro. Ela viaja com Nereu, Jeane e Bartolomeu, vivendo aventuras em um mundo dos sonhos.
 
 Atributos
@@ -20,33 +20,38 @@ HP (Pontos de Vida): (10 + CON) x Nível = (10 + 6) x 7 = 112
 MP (Pontos de Mana): (5 + CAR) x Nível = (5 + 8) x 7 = 91
 CA (Classe de Armadura):
 Bloqueio: 8 + CON/2 = 8 + 3 = 11
-Esquiva: 8 + (0,75 x DEX) = 8 + 5,25 = 13,25 (arredondar para 13)
+Esquiva: 8 + (0,75 x DEX) = 8 + 5,25 = 13,25 (arredondado para 13)
 Absorção por "Hit": 7
 Perícias
 Persuasão
 Foco em arma: Pederneira
 Foco em arma: Empunhadura dupla de espadas de uma mão
-Línguas
-Comum
+Línguas: Comum
 Equipamentos
 Armas
 x2 Pistolas encantadas com essência de fogo:
+
 Dano perfurante: 1d6 + DEX
 Dano de fogo: 1d12 + CAR
 Alcance: 16m
 Rifle de mosquete:
+
 Dano: 1d8 + DEX
 Alcance: 30m
 Bacarmate:
+
 Dano perfurante: 3d6 + 1,25 x DEX
 Alcance: 6m
 Espada Glacial:
+
 Dano cortante: 1d6 + 1,5 x DEX
 Dano gélido: 2d12 (congela por 1 rodada com falha no teste de resistência física: CD = 6 + 0,5 x CAR).
 Espada Absorvedora de Mana:
+
 Dano cortante: 3d6 + 2 x DEX
 Efeito: Absorve mana. Se embutido um elemento, causa +1d8 de dano adicional.
 x2 Bombas Caseiras:
+
 Alcance: 6 + DEX metros
 Dano em área: 1d6 + 1,5 x DEX
 Armadura Equipada
@@ -54,44 +59,44 @@ Armadura de couro espiritual encantada com Fogo Demoníaco:
 Absorção: +7
 CA adicional: +3 em bloqueio
 Dano ao contato de bloqueio: 1d6 + (1/3 x CAR) de fogo demoníaco
-Habilidade Especial:
-Onda de Fogo Demoníaco
+Habilidade Especial
+Onda de Fogo Demoníaco:
 Dano: 2d8 + CAR
 Alcance: 5 x Rank metros
 Custo: 7 MP
 Recarga: 4 turnos
 Habilidades
 Espírito Humano (Passiva):
-
 A cada Rank Up, recebe +1 ponto de atributo.
-Encanto da Capitã:
 
+Encanto da Capitã:
 Seduz o alvo, efetuando um teste de Persuasão x Resistência Mental.
 Efeito: +1 + Rank em CAR para testes de Carisma contra o alvo afetado.
 Limite: 1 afetado por vez.
 Custo: 3 MP
 Recarga: Descanso curto.
-Recarga Dupla:
 
+Recarga Dupla:
 Recarrega duas armas de fogo empunhadas ao mesmo tempo.
 Custo: 1 MP
-Corte de Luz:
 
+Corte de Luz:
 Canaliza luz em um minério, gerando:
+
 Penumbra: 2m
 Dano adicional ao contato: +1d4
 Custo: 3 MP
 Recarga: 2 turnos
 Destruidor de Galeões:
-
 Cria um projétil perfurante de dano ao contato: 2d10 + 2 x DEX
 Custo: 6 MP
-Recarga: 6 turnos.
+Recarga: 6 turnos
+
 Inflamação Demoníaca (Passiva-Ativa):
 
 Passiva: Cura 1d4 no final de cada turno.
 Ativa: Cura adicional + CAR e dano de contato em inimigos: 1d6 + CAR por rodada.
-Custo: 3 MP por turno.
+Custo: 3 MP por turno
 Imbuição Derradeira:
 
 Custo: 50% da vida máxima (sem penalidades).
@@ -102,18 +107,17 @@ Efeitos:
 Inflamação Demoníaca triplica a eficácia da cura.
 Duração: 1 + Rank turnos.
 Custo: 10 + 5 x Rank MP.
-Recarga: Descanso longo.
+Recarga: Descanso longo
 Brasas Demoníacas:
 
 Onda de chama reta (10m): 2d8 + CAR de dano.
 Imbuição em armas: 1d10 + CAR adicional.
 Absorve a brasa como ação bônus, curando metade do dano causado.
-Custo: 10 MP.
-Recarga: 3 turnos.
+Custo: 10 MP
+Recarga: 3 turnos
 Égide Incendiária:
-
 Mitiga 50% + 5% x Rank do dano bruto antes da absorção.
 Após 3 rodadas, explode com dano igual ao total mitigado.
 Alcance da explosão: 2m por cada 10 de dano mitigado.
-Custo: 25 MP.
-Recarga: 4 turnos após o fim do efeito.
+Custo: 25 MP
+Recarga: 4 turnos após o fim do efeito

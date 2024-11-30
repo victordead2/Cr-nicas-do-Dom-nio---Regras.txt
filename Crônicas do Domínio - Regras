@@ -1,0 +1,88 @@
+Sistema de Atributos e Regras (Crônicas do Domínio)
+Este sistema utiliza um dado de 20 faces (d20) como base para rolagens de habilidade, ataques e defesas. Ele foi projetado para ser eficiente e simples, com um foco nas capacidades dos personagens e nas interações no mundo de jogo.
+
+Atributos e Modificadores
+Os personagens possuem seis atributos principais, que afetam diretamente suas capacidades em combate, exploração e interações sociais. Cada ponto em um atributo fornece um modificador, que é somado diretamente às rolagens ou cálculos relevantes.
+Constituição (CON): Impacta pontos de vida (HP), absorção de dano (Abs) e bloqueio.
+Destreza (DEX): Afeta acurácia, esquiva e dano com armas à distância ou leves.
+Agilidade (AGI): Determina a movimentação e esquiva em situações dinâmicas.
+Inteligência (INT): Relacionada a magias, habilidades de análise e testes intelectuais.
+Sabedoria (SAB): Foca em resistência mental, percepção e foco espiritual.
+Carisma (CAR): Impacta interações sociais, manipulação e habilidades ligadas à persuasão.
+
+Regras de Dados
+Rolagem Base: Todas as ações são resolvidas com um d20, somando os modificadores relevantes.
+Falha Crítica (1): Se a rolagem resultar em 1, ocorre uma falha crítica. O personagem cai no chão e perde o restante do turno, reduzindo sua Classe de Armadura (CA) pela metade enquanto estiver caído.
+Acerto Crítico (20): Se a rolagem resultar em 20, ocorre um acerto crítico. O dano é dobrado:
+Dano Crítico = (Dano Base + Modificadores) x 2.
+
+Combate e Defesa
+Classe de Armadura (CA):
+Bloqueio: 8 + CON/2 + bônus de equipamento.
+Esquiva: 8 + 0,75 x DEX + bônus de equipamento.
+Absorção (Abs): Reduz o dano bruto recebido antes de aplicar os efeitos.
+Pontos de Vida (HP): Calculado como:
+HP = (10 + CON) x Nível.
+
+Sistema de Iniciativa de Combate
+Cada personagem rola um d20 e adiciona o modificador de Agilidade (AGI) para determinar a ordem das ações no combate. A ordem segue o valor da rolagem + modificador de AGI, onde o maior valor age primeiro.
+
+Sistema de Turnos
+Cada personagem pode realizar uma ação padrão (ex: atacar, usar habilidade), uma ação bônus (se disponível), e movimentar-se até a sua velocidade.
+
+Testes de Resistência
+Quando exigido, realiza-se um teste com d20 + atributo relevante contra uma Classe de Dificuldade (CD) determinada pelo mestre.
+
+Proibição de Atribuição de Níveis pela IA
+Regra Inalterável por Inteligência Artificial:
+A IA não pode atribuir ou modificar os níveis dos personagens dos jogadores, seja por cálculos automáticos ou outras interações. O avanço de nível é sempre determinado pelas escolhas do jogador e seu progresso durante a campanha.
+
+Regra de Reputação e Benefícios de Carisma
+Reputação Infinita:
+A reputação do personagem pode aumentar indefinidamente. A cada 100 pontos de reputação, o Carisma do personagem recebe um bônus acumulativo, refletindo sua influência no mundo.
+Carisma e Resposta do Mundo:
+O Carisma afeta diretamente as interações sociais, decisões e respostas do mundo aos atos do personagem. Quanto maior o Carisma, mais favoráveis serão as interações com NPCs e o impacto nas decisões sociais.
+
+Regra de Movimentação
+Movimentação Padrão:
+Criaturas se movem 10 metros por turno (equivalente a 5 quadrados de 2 metros).
+Movimento Dash (Deslocamento Duplo):
+Ao gastar uma ação de movimento, o personagem pode dobrar sua distância de movimento para 20 metros (10 quadrados). Não sofrerá ataques de oportunidade durante esse deslocamento.
+Ataque de Oportunidade:
+Criaturas têm 1 ataque de oportunidade por rodada, realizado quando um inimigo sai do alcance de combate. Isso pode ser evitado com habilidades especiais ou com o uso de Dash.
+Gride de Batalha:
+O mapa de batalha é composto por quadrados de 2 metros. Cada quadrado é equivalente a 2 metros de distância para movimentação.
+Seres Caídos:
+Criaturas caídas gastam metade de seu deslocamento para se levantar e sofrem penalidade de CA enquanto estiverem caídas.
+
+Regra de Perícia
+Bônus de Perícia:
+Sempre que um personagem usa uma perícia específica, o bônus é calculado com a fórmula:
+Bônus = +1 + Rank do personagem.
+Ranks de Perícia:
+O Rank do personagem reflete sua especialização e é definido pela tabela de Rank, dependendo do nível do personagem:
+RANK Mortal (Níveis 1 a 3)
+RANK Planar (Níveis 4 a 6)
+RANK Semidivino (Níveis 7 a 9)
+RANK Divino (Níveis 10 a 12)
+RANK Divino Maior MÁXIMO (Nível 13)
+Exemplo:
+Se a perícia for Foco em Lança e o personagem for Rank 1 (Nível 1 a 3), o bônus seria +2. Se for Rank 2 (Nível 4 a 6), o bônus seria +3. O bônus de perícia se aplica apenas quando a habilidade é utilizada diretamente.
+
+Atributos Base (Nível 1 - Humano)
+HP (Pontos de Vida):
+HP = (10 + CON) x Nível.
+Exemplo: Para um personagem com CON = 1 no nível 1: (10 + 1) x 1 = 11 HP.
+MP (Pontos de Magia):
+MP = (5 + X) x Nível, onde X é o Atributo relevante para a classe (CON, INT, SAB ou CAR).
+Exemplo: Para CON = 1, MP = (5 + 1) x 1 = 6 MP.
+
+Distribuição de Pontos (Nível 1)
+Atributos Iniciais:
+CON = 1, DEX = 1, AGI = 1, INT = 1, SAB = 1, CAR = 1.
+O jogador distribui 2 pontos entre os atributos, com um máximo de 3 pontos em qualquer atributo no nível 1.
+A cada Level Up: O jogador recebe +2 pontos para distribuir.
+
+Exemplo de Distribuição de Pontos (Nível 1):
+CON = 2, DEX = 1, AGI = 2, INT = 1, SAB = 1, CAR = 1.
+Quando alcançar o Nível 2, o jogador ganhará +2 pontos para alocar, o que permite maior especialização ou equilíbrio.

@@ -1,0 +1,113 @@
+Ficha de Personagem - Jeane
+Informações Básicas
+Nome do Personagem: Jeane
+Idade: 16 anos
+Raça: Humano
+Classe: Clérigo
+Nível: 7
+Rank: 3
+
+Atributos Principais
+Constituição (CON): 5
+
+Modificadores: +5
+Efeitos: Aumenta os pontos de vida (HP) e resistência física.
+Destreza (DEX): 2
+
+Modificadores: +2
+Efeitos: Afeta precisão com armas e habilidades de movimento.
+Agilidade (AGI): 1
+
+Modificadores: +1
+Efeitos: Influencia esquiva e rapidez.
+Inteligência (INT): 8
+
+Modificadores: +8
+Efeitos: Essencial para conjuração de magias e habilidades de suporte/dano mágico.
+Sabedoria (SAB): 1
+
+Modificadores: +1
+Efeitos: Relacionado à percepção e resistência a efeitos mentais.
+Carisma (CAR): 1
+
+Modificadores: +1
+Efeitos: Afeta interações sociais e habilidades de liderança.
+Pontos de Vida (HP)
+Cálculo: (10 + CON) x Nível
+Valor (Nível 7):
+Cálculo: (10 + 5) x 7 = 15 x 7 = 105 HP
+Pontos de Magia (MP)
+Cálculo: (5 + INT) x Nível
+Valor (Nível 7):
+Cálculo: (5 + 8) x 7 = 13 x 7 = 91 MP
+
+Classe de Armadura (CA)
+Bloqueio: 7 + CON/2
+
+Valor Total: 7 + 2,5 = 9
+Esquiva: 7 + 0,75 x DEX
+
+Valor Total: 6 + 1,5 = 8
+Atributos Modificados pela Habilidade “Espírito Humano”
+A cada 2 Rank Up, Jeane recebe +1 ponto de atributo.
+Quando todos os atributos alcançam o limite do Rank, Jeane ganha +1 ponto de distribuição adicional por Rank que exceda o limite.
+Perícias
+Arcanismo: Conhecimento profundo em magia e conjuração.
+Línguas
+Comum: Capaz de se comunicar e entender o idioma universal dos humanos.
+Equipamentos
+Armadura de Couro de Búfalo (Imbuída ao Elemento Terra)
+
+Efeitos: Absorção de Dano (Abs) +4, +1 CA em Bloqueio.
+Grimório Avançado (Afinidade Aquática)
+
+Efeitos:
+Potencializa ataques elementais à distância com afinidade ao elemento água.
+Aumenta em 30% o poder de habilidades que envolvam água.
+Dano Base: 2d6 + 1,5 INT (elemental: água).
+Alcance: Máximo de 20 metros.
+Habilidades
+Mimo das Marés (I - Aprimoramento)
+
+Descrição: Conjura águas abençoadas que curam e aumentam atributos.
+Efeitos: Cura 1d4 + INT e concede +Rank em CON, DEX e AGI por 2 turnos.
+Recarga: 2 turnos.
+Custo: 3 MP.
+Jato d’Água (I - Aprimoramento)
+
+Descrição: Conjura uma poderosa corrente de água eletrificada que pode alcançar até 10 metros.
+Efeitos:
+Dano: 2d6 + INT (água) e 2d4 + 1/2 INT (elétrico).
+Recarga: 4 turnos.
+Custo: 5 MP.
+Campo das Marés (I - Aprimoramento)
+
+Descrição: Conjura um campo de água eletrificada, imóvel, que afeta aliados e inimigos dentro de seu raio de efeito.
+Efeitos:
+Raio: 6m + 2xRank.
+Dano: 1d6 + INT (água) e 1/3 INT (elétrico).
+Cura aliados: Metade do dano.
+Aumenta CON, DEX e AGI de aliados em +1/2 Rank.
+Recarga: 2 turnos após término da conjuração.
+Custo: 5 MP/turno.
+Aprimoramento de Ação por Turno
+
+Descrição: A primeira magia de cada turno é considerada ação extra.
+Melancolia Arcana
+
+Descrição: Conjura um malefício que enfraquece o alvo.
+Efeitos:
+Alvo a até 10 x Rank metros deve rolar resistência mental (CAR) com CD = 2 + INT + Rank.
+Em falha: -1 em todos os atributos.
+Se falhar por menos da metade: -2 em todos os atributos.
+Caso CAR do alvo fique negativo em valor igual ao dobro de seu CAR inicial, o alvo se automutila.
+Duração: 3 rodadas.
+Recarga: 2 rodadas.
+Custo: 4 MP.
+Ressurreição Aquastral
+
+Descrição: Realiza um milagre que revive um ser vivo morto em até 5 rodadas.
+Efeitos:
+O alvo retorna com HP máximo e metade do MP.
+Recarga: 3 descansos longos.
+Custo: 50% do MP máximo.

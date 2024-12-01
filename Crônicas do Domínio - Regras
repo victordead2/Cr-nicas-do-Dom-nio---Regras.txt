@@ -86,3 +86,50 @@ A cada Level Up: O jogador recebe +2 pontos para distribuir.
 Exemplo de Distribuição de Pontos (Nível 1):
 CON = 2, DEX = 1, AGI = 2, INT = 1, SAB = 1, CAR = 1.
 Quando alcançar o Nível 2, o jogador ganhará +2 pontos para alocar, o que permite maior especialização ou equilíbrio.
+
+Sistema de Loja de Consumíveis e Relíquias
+
+Moeda
+Moeda Ilusória: Utilizada para comprar itens na loja. Adquirida através de missões, desafios ou eventos raros.
+Itens de Loja
+Relíquias (Equipamento de Slots)
+Cada personagem possui slots de relíquia limitados pelo "Nível de Slot de Relíquia". Relíquias podem ser equipadas para alterar atributos como HP, MP ou causar bônus de dano específicos.
+
+Relíquias Comuns
+
+Presa de Fera: +5% de dano físico. (5.000 Moedas Ilusórias)
+Orb da Vitalidade: +50 HP máximo. (4.000 Moedas Ilusórias)
+Cristal do Místico: +25 MP máximo. (4.000 Moedas Ilusórias)
+Relíquias Raras
+
+Lâmina Antiga: +10% de dano físico. (12.000 Moedas Ilusórias)
+Amuleto das Marés: +10% de dano de água e +10 MP. (10.000 Moedas Ilusórias)
+Anel da Cura Leve: Cura passiva de 1% do HP por turno. (15.000 Moedas Ilusórias)
+Relíquias Épicas
+
+Fragmento do Dragão: +20% de dano de fogo. (30.000 Moedas Ilusórias)
+Medalhão do Guardião: +100 HP máximo e +5% de resistência a danos. (25.000 Moedas Ilusórias)
+Olho do Mago Supremo: +50 MP máximo e +20% de dano mágico. (30.000 Moedas Ilusórias)
+Relíquias Lendárias
+
+Coração de Trovão: +50% de dano elétrico. (70.000 Moedas Ilusórias)
+Escama do Leviatã: +300 HP máximo e resistência total a dano de água. (65.000 Moedas Ilusórias)
+Cetro do Infinito: +100 MP máximo, reduz custo de habilidades em 25%. (75.000 Moedas Ilusórias)
+Consumíveis (Itens de Uso Único)
+Poção Menor de Vida: Recupera 50 HP. (1.000 Moedas Ilusórias)
+Poção Menor de Mana: Recupera 30 MP. (1.000 Moedas Ilusórias)
+Poção Superior de Vida: Recupera 200 HP. (5.000 Moedas Ilusórias)
+Poção Superior de Mana: Recupera 100 MP. (5.000 Moedas Ilusórias)
+Elixir Supremo: Recupera totalmente HP e MP. (15.000 Moedas Ilusórias)
+Runa de Ressurreição: Revive um aliado com 50% de HP. (20.000 Moedas Ilusórias)
+Nível de Slot de Relíquia
+Nível Inicial: 2 Slots de Relíquias (habilitado no início do jogo).
+Cada aumento de slot: +1 Slot. (10.000 Moedas Ilusórias por slot adicional)
+Limite Máximo: 6 Slots de Relíquias por personagem.
+Notas para Sistema de Jogo
+Relíquias e Consumo de Recursos:
+
+Relíquias mais poderosas aumentam custos de habilidades ou têm efeitos colaterais (ex.: +20% de dano mas reduz 5% da resistência).
+Atualizações Futuais:
+
+Lojistas podem renovar estoques com novas relíquias únicas ou itens sazonais.
